@@ -1,3 +1,8 @@
+<script setup lang="ts">
+	import twitter  from '@/components/icons/twitter.vue'
+	import insta from '@/components/icons/insta.vue'
+</script>
+
 <template>
   <footer>
     <nav>
@@ -20,23 +25,19 @@
       </address>
     </div>
 
-    <div></div>
+    <div><twitter /></div>
+    <div><insta /></div>
 
     <div>
       <h4>Nous suivre</h4>
-      <ul>
-        <li>
-          <a href="https://facebook.com" aria-label="facebook"> </a>
-        </li>
+      <ul> 
         <li>
           <a href="https://instagram.com" aria-label="instagram"> </a>
         </li>
         <li>
           <a href="https://twitter.com" aria-label="twitter"> </a>
         </li>
-        <li>
-          <a href="https://youtube.com" aria-label="youtube"> </a>
-        </li>
+        
       </ul>
     </div>
   </footer>
