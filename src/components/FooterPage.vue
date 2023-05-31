@@ -4,8 +4,8 @@
 </script>
 
 <template>
-  <footer class="space-y-6 bg-gray-900 py-16 px-6 text-white">
-    <nav class="col-span-3 col-start-7 space-y-3">
+  <footer class="space-y-6 bg-black py-16 px-6 text-white">
+    <nav class="col-span-3 col-start-7 space-y-3 text-left">
       <h4 class="font-bold uppercase">Menu</h4>
       <ul>
         <li><a href="#">Mentions légales</a></li>
@@ -16,17 +16,17 @@
       </ul>
     </nav>
 
-    <div class="space-y-3">
+    <div class="col-span-3 col-start-7 space-y-3">
       <h4 class="font-bold uppercase">Contact</h4>
       <address>
         Fondation Cartier, 261 Bd Raspail<br />75014 Paris<br />
         <a href="tel:0384542727">03 84 54 27 27</a><br />
-        <a href="mailto:conservatoire@agglo-belfort.fr">conservatoire@agglo-belfort.fr</a>
+        <a href="mailto:ripertnoah@gmail.com">ripertnoah@gmail.com</a>
       </address>
     </div>
 
 
-    <div class="col-span-3 col-start-10 space-y-3">
+    <div class="col-span-3 col-start-7 space-y-3">
       <h4 class="font-bold uppercase">Nous suivre</h4>
       <ul class="flex gap-4"> 
         <div><twitter /></div>

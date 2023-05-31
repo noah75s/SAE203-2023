@@ -1,7 +1,7 @@
 <script setup lang="ts">
     import { RouterLink } from 'vue-router'
     import { ref, computed, watch } from 'vue'
-    import Logo from '@/components/icons/Logo.vue'
+    import Logo from '@/components/icons/logo.vue'
     const activeMenu = ref(false)
 
     function closeMenu() {
