@@ -9,7 +9,7 @@
       
       <ul>
         <h4 class="font-bold uppercase">Menu</h4>
-        <h4 class="font-bold uppercase">Mentions légaless</h4>
+        <h4 class="font-bold uppercase">Mentions légales</h4>
         <li><a href="#">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</a></li>
         <li><a href="#">Contact et accès</a></li>
         <li><a href="#">Noah Ripert C1</a></li>
