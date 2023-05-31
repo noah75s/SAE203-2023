@@ -5,33 +5,35 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <header>
-    <div>
+ <header class="fixed z-10 flex w-full translate-y-0 items-stretch justify-between bg-white px-6 py-2 transition-all duration-300 ease-in-out">
+    <div class="flex items-center">
       <a href="/">
         <LogoIcon />
       </a>
     </div>
 
-    <div>
+    <div class="flex items-center gap-4">
       <button>
         <SearchIcon />
       </button>
 
-      <button>
-        <div></div>
-        <div></div>
-        <div></div>
+      <button class="relative z-10 flex h-5 w-8 flex-col justify-between">
+        <div class="ease h-[2px] w-full transform rounded-full bg-black transition duration-300"></div>
+        <div class="ease h-[2px] w-full transform rounded-full bg-black transition duration-300"></div>
+        <div class="ease h-[2px] w-full transform rounded-full bg-black transition duration-300"></div>
       </button>
 
-			<nav>
-		    <ul>
-		      <li><RouterLink to="/conservatoire">Infos sur l'exposition</RouterLink></li>
-		      <li><RouterLink to="/">Artistes</RouterLink></li>
-		      <li><RouterLink to="/events">Frise</RouterLink></li>
-		      <li><RouterLink to="/contact">Contact</RouterLink></li>
-		      <li><RouterLink to="/">Billetterie</RouterLink></li>
+			<nav class="fixed inset-0 h-screen w-screen bg-indigo text-2xl text-white transition-all duration-300 ease-in-out">
+		    <ul class="mt-[25vh] ml-16">
+		      <li><RouterLink class="menu-link" to="/exposition">Infos sur l'exposition</RouterLink></li>
+		      <li><RouterLink class="menu-link" to="/">Artistes</RouterLink></li>
+		      <li><RouterLink class="menu-link" to="/events">Frise</RouterLink></li>
+		      <li><RouterLink class="menu-link" to="/contact">Contact</RouterLink></li>
+		      <li><RouterLink class="menu-link" to="/">Billetterie</RouterLink></li>
 		    </ul>
 		  </nav>
+
+      
     </div>
   </header>
 </template>
