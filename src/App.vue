@@ -1,17 +1,16 @@
 <script setup lang="ts">
-// a completer
+import { RouterView } from 'vue-router'
+import Header from './components/HeaderPage.vue'
+import Footer from './components/FooterPage.vue'
 </script>
 
 <template>
-  <header>
-    <h1 class="text-4xl">Test</h1>
-  </header>
+  
+  <Header />
 
-  <main>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora recusandae et dolorem odit
-      beatae illo labore, praesentium quidem nulla eveniet, at voluptatem incidunt. Eaque explicabo,
-      vitae quibusdam vero quod atque.
-    </p>
+   <main>
+    <RouterView />
   </main>
+
+  <Footer />
 </template>
