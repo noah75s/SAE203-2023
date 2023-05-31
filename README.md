@@ -1,7 +1,7 @@
-- Nom:
-- Prénom:
-- URL du site:
-- Url de la maquette :
+- Nom: RIPERT
+- Prénom: Noah
+- URL du site: kalinka.noahripert.fr
+- Url de la maquette : https://www.figma.com/file/DMW3mUHIrwBLlYNX50AtgQ/SAE_site_evenementiel_Noah_Ripert_C1?type=design&node-id=1303-944&t=PZEM1jO3WKkOofbr-0
 
 # Sujet : Description de la SAE
 
