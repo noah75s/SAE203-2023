@@ -4,9 +4,9 @@
 </script>
 
 <template>
-  <footer>
-    <nav>
-      <h4>Menu</h4>
+  <footer class="space-y-6 bg-gray-900 py-16 px-6 text-white">
+    <nav class="col-span-3 col-start-7 space-y-3">
+      <h4 class="font-bold uppercase">Menu</h4>
       <ul>
         <li><a href="#">Mentions légales</a></li>
         <li><a href="#">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</a></li>
@@ -16,8 +16,8 @@
       </ul>
     </nav>
 
-    <div>
-      <h4>Contact</h4>
+    <div class="space-y-3">
+      <h4 class="font-bold uppercase">Contact</h4>
       <address>
         Fondation Cartier, 261 Bd Raspail<br />75014 Paris<br />
         <a href="tel:0384542727">03 84 54 27 27</a><br />
@@ -25,12 +25,12 @@
       </address>
     </div>
 
-    <div><twitter /></div>
-    <div><insta /></div>
 
-    <div>
-      <h4>Nous suivre</h4>
-      <ul> 
+    <div class="col-span-3 col-start-10 space-y-3">
+      <h4 class="font-bold uppercase">Nous suivre</h4>
+      <ul class="flex gap-4"> 
+        <div><twitter /></div>
+        <div><insta /></div>
         <li>
           <a href="https://instagram.com" aria-label="instagram"> </a>
         </li>
