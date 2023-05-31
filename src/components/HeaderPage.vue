@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import LogoIcon from '@/components/icons/IconLogo.vue'
-import SearchIcon from '@/components/icons/IconSearch.vue'
+import logo from '@/components/icons/logo.vue'
+import menu from '@/components/icons/menu.vue'
 import { RouterLink } from 'vue-router'
 </script>
 
