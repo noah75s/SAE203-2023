@@ -1,7 +1,15 @@
 <script setup lang="ts">
+import { ref, computed, watch } from 'vue'
 import logo from '@/components/icons/logo.vue'
 import menu from '@/components/icons/menu.vue'
 import { RouterLink } from 'vue-router'
+
+
+// Créer une référence réactive pour suivre l'état du menu
+const activeMenu = ref(false)
+function closeMenu() {
+	  activeMenu.value = false
+	}
 </script>
 
 <template>
@@ -23,13 +31,16 @@ import { RouterLink } from 'vue-router'
         <div class="ease h-[2px] w-full transform rounded-full bg-black transition duration-300"></div>
       </button>
 
-			<nav class="fixed inset-0 h-screen w-screen bg-indigo text-2xl text-white transition-all duration-300 ease-in-out">
+			<nav
+    class="invisible opacity-0 fixed inset-0 h-screen w-screen bg-indigo text-2xl text-white transition-all duration-300 ease-in-out"
+    :class="{ '!visible opacity-100': activeMenu }"
+  >
 		    <ul class="mt-[25vh] ml-16">
-		      <li><RouterLink class="menu-link" to="/exposition">Infos sur l'exposition</RouterLink></li>
-		      <li><RouterLink class="menu-link" to="/">Artistes</RouterLink></li>
-		      <li><RouterLink class="menu-link" to="/events">Frise</RouterLink></li>
-		      <li><RouterLink class="menu-link" to="/contact">Contact</RouterLink></li>
-		      <li><RouterLink class="menu-link" to="/">Billetterie</RouterLink></li>
+		      <li><RouterLink class="menu-link" to="/exposition" @click="closeMenu">Infos sur l'exposition</RouterLink></li>
+		      <li><RouterLink class="menu-link" to="/" @click="closeMenu">Artistes</RouterLink></li>
+		      <li><RouterLink class="menu-link" to="/events" @click="closeMenu">Frise</RouterLink></li>
+		      <li><RouterLink class="menu-link" to="/contact" @click="closeMenu">Contact</RouterLink></li>
+		      <li><RouterLink class="menu-link" to="/" @click="closeMenu">Billetterie</RouterLink></li>
 		    </ul>
 		  </nav>
 
