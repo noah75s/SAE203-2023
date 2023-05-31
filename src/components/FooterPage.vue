@@ -4,11 +4,12 @@
 </script>
 
 <template>
-  <footer class="space-y-6 bg-black py-16 px-6 text-white">
-    <nav class="col-span-3 col-start-7 space-y-3 text-left">
-      <h4 class="font-bold uppercase">Menu</h4>
+  <footer class="space-y-6 bg-black py-16 px-6 text-white flex flex-wrap justify-between">
+    <nav class="w-full sm:w-1/2 md:w-auto space-y-3 text-left">
+      
       <ul>
-        <li><a href="#">Mentions légales</a></li>
+        <h4 class="font-bold uppercase">Menu</h4>
+        <h4 class="font-bold uppercase">Mentions légaless</h4>
         <li><a href="#">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</a></li>
         <li><a href="#">Contact et accès</a></li>
         <li><a href="#">Noah Ripert C1</a></li>
@@ -16,7 +17,7 @@
       </ul>
     </nav>
 
-    <div class="col-span-3 col-start-7 space-y-3">
+    <div class="w-full sm:w-1/2 md:w-auto space-y-3">
       <h4 class="font-bold uppercase">Contact</h4>
       <address>
         Fondation Cartier, 261 Bd Raspail<br />75014 Paris<br />
@@ -26,7 +27,7 @@
     </div>
 
 
-    <div class="col-span-3 col-start-7 space-y-3">
+    <div class="w-full sm:w-1/2 md:w-auto space-y-3">
       <h4 class="font-bold uppercase">Nous suivre</h4>
       <ul class="flex gap-4"> 
         <div><twitter /></div>
@@ -37,7 +38,6 @@
         <li>
           <a href="https://twitter.com" aria-label="twitter"> </a>
         </li>
-        
       </ul>
     </div>
   </footer>
