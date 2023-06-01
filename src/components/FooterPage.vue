@@ -8,7 +8,7 @@
     <nav class="w-full sm:w-1/2 md:w-auto space-y-3 text-left">
       
       <ul>
-        <h4 class="font-bold uppercase">Menu</h4>
+        <h4 class="font-bold poppins">Menu</h4>
         <h4 class="font-bold uppercase">Mentions légales</h4>
         <li><a href="#">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</a></li>
         <li><a href="#">Contact et accès</a></li>
