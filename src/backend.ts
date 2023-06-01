@@ -7,7 +7,7 @@ export async function allartistes() {
     return records;
 }
 export async function allOeuvres() {
-    const records = await pb.collection ("oeuvres").getFullList();
+    const records = await pb.collection ("oeuvres").getFullList<OeuvresResponse>();
     return records;
 }
 
