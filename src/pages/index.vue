@@ -53,16 +53,29 @@ L’EXPOSITION KALINKA
       </p>
     </div>
   </section>
-
   <section
-    class="grille space-y-8 py-24 lg:before:col-span-2 lg:before:col-start-1 lg:before:mt-12 lg:before:h-[1px] lg:before:bg-black"
+    class="grille space-y-5 py-24 lg:before:col-span-1 lg:before:col-start-1 lg:before:mt-12 lg:before:h-[1px] lg:before:bg-black"
   >
-    <header class="col-span-6 col-start-3 space-y-6">
+    <header class="col-span-3 col-start-3 space-y-6">
       <header class="col-span-7 col-start-6 row-span-1 row-start-1 space-y-8 bg-white lg:p-16 rounded-md"></header>
-      <h2 class="text-4xl lg:text-6xl">Agenda</h2>
-      <p class="text-xl leading-normal lg:text-3xl">
-        Lieu de création artistique, le conservatoire propose régulièrement des actions culturelles
-        ouvertes à tous.
+      <h2 class="text-4xl lg:text-4xl text-center text-white text-poppins">Informations sur l’exposition</h2>
+      <p class="text-xl leading-normal lg:text-1xl text-center text-white text-poppins">
+        Dates de l’exposition : du 13 avril au 23 juin 2021
+      </p>
+      <p class="text-xl leading-normal lg:text-1xl text-center text-white text-poppins">
+        Fondation Cartier, 261 Bd Raspail, 75014 Paris
+      </p>
+      <p class="text-xl leading-normal lg:text-1xl text-center text-white text-poppins">
+        Plein tarif : 11€
+      </p>
+      <p class="text-xl leading-normal lg:text-1xl text-center text-white text-poppins">
+        Tarif réduit : 7,50€
+      </p>
+      <p class="text-xl leading-normal lg:text-1xl text-center text-white text-poppins">
+        Réduction 13 - 25 ans : 5€
+      </p>
+      <p class="text-xl leading-normal lg:text-1xl text-center text-white text-poppins">
+        Fondation Cartier Pass : 18€ - 50€
       </p>
     </header>
   
