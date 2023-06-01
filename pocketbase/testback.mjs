@@ -46,7 +46,7 @@ try {
     */
 
         try {
-            const records = await IDOeuvresArtistes("nujfckkh59sp7d4")
+            const records = await IDOeuvresArtiste("nujfckkh59sp7d4")
             console.log(JSON.stringify( records, null, 2));
         } catch (e) {
             console.error(e);}
