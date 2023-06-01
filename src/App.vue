@@ -8,8 +8,12 @@ import Footer from './components/FooterPage.vue'
   
   <Header />
 
+
    <main>
-    <RouterView />
+    <Suspense>
+
+      <RouterView />
+    </Suspense>
   </main>
 
   <Footer />

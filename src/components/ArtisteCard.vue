@@ -18,6 +18,8 @@ console.log(urlImg0)
     <div class=" w-[345] h-[130] border text-sm ">
         <p>artiste : {{ nom }}</p>
         <p>image de l'artiste : {{ img }}</p>
+        <p>artiste : {{ nom }}</p>
+        <p>image de l'artiste : {{ img }}</p>
         <RouterLink
                   :to="{
                       name: 'artiste-id',
