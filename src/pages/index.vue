@@ -75,11 +75,11 @@ L’EXPOSITION KALINKA
 
         <div class="grid justify-items-center">
           <img class="h-[120px]" src="../assets/Rectangle 10.webp">
-          <p class="">
+          <p class="block text-2xl text-bold-poppins lg:text-2xl text-black">
             Ivan Vladimirov
           </p>
           <RouterLink class="menu-link" to="">
-            <p class="">
+            <p class="text-decoration-line: underline">
             En savoir plus
           </p>
           </RouterLink>
@@ -87,11 +87,11 @@ L’EXPOSITION KALINKA
 
         <div class="grid justify-items-center">
           <img class="h-[120px]" src="../assets/Rectangle 12.webp">
-          <p class="">
-            Ivan Vladimirov
+          <p class="block text-2xl text-bold-poppins lg:text-2xl text-black">
+            Igor Grabar
           </p>
           <RouterLink class="menu-link" to="">
-            <p class="">
+            <p class="text-decoration-line: underline">
             En savoir plus
           </p>
           </RouterLink>
@@ -99,11 +99,11 @@ L’EXPOSITION KALINKA
 
         <div class="grid justify-items-center">
           <img class="h-[120px]" src="../assets/Rectangle 13.webp">
-          <p class="">
-            Ivan Vladimirov
+          <p class="block text-2xl text-bold-poppins lg:text-2xl text-black">
+            Constantin Youon
           </p>
           <RouterLink class="menu-link" to="">
-            <p class="">
+            <p class="text-decoration-line: underline">
             En savoir plus
           </p>
           </RouterLink>
@@ -111,11 +111,11 @@ L’EXPOSITION KALINKA
 
         <div class="grid justify-items-center">
           <img class="h-[120px]" src="../assets/Rectangle 14.webp">
-          <p class="">
-            Ivan Vladimirov
+          <p class="block text-2xl text-bold-poppins lg:text-2xl text-black">
+            Sun Mu
           </p>
           <RouterLink class="menu-link" to="">
-            <p class="">
+            <p class="text-decoration-line: underline">
             En savoir plus
           </p>
           </RouterLink>
@@ -123,9 +123,12 @@ L’EXPOSITION KALINKA
 
       </div>
 
+      
 </header>
 
-      <h2 class="text-4xl lg:text-4xl text-center text-white text-poppins">Informations sur l’exposition</h2>
+<hr class="my-8 w-[250px] border border-white m-auto lg:w-[1072px]">
+
+      <h2 class="text-4xl lg:text-4xl text-center text-white text-poppins text-decoration-line: underline">Informations sur l’exposition</h2>
       <p class="text-xl leading-normal lg:text-1xl text-center text-white text-poppins">
         Dates de l’exposition : du 13 avril au 23 juin 2021
       </p>
