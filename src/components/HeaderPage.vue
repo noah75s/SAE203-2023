@@ -43,7 +43,7 @@
               <li  class="menu-item"><RouterLink class="menu-link" to="/artiste"    @click="closeMenu">Artistes</RouterLink></li>
               <li  class="menu-item"><RouterLink class="menu-link" to="/frise"    @click="closeMenu">Frise</RouterLink ></li>
               <li  class="menu-item"><RouterLink class="menu-link" to="/contact"    @click="closeMenu">Contact</RouterLink ></li>
-              <li  class="menu-item"><RouterLink class="menu-link" to="/"    @click="closeMenu">Billetterie</RouterLink ></li>
+              <li  class="menu-item"><RouterLink class="menu-link" to="/oeuvre"    @click="closeMenu">Oeuvres</RouterLink ></li>
             </ul>
           </nav>
     </div>
