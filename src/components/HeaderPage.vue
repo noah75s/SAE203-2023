@@ -40,8 +40,8 @@
             :class="{ '!visible opacity-100': activeMenu }">
             <ul class="mt-[25vh] ml-16  lg:m-0 lg:flex">
               <li  class="menu-item"><RouterLink class="menu-link" to="/conservatoire"    @click="closeMenu">L'exposition</RouterLink></li>
-              <li  class="menu-item"><RouterLink class="menu-link" to="/"    @click="closeMenu">Artistes</RouterLink></li>
-              <li  class="menu-item"><RouterLink class="menu-link" to="/events"    @click="closeMenu">Frise</RouterLink ></li>
+              <li  class="menu-item"><RouterLink class="menu-link" to="/artiste"    @click="closeMenu">Artistes</RouterLink></li>
+              <li  class="menu-item"><RouterLink class="menu-link" to="/frise"    @click="closeMenu">Frise</RouterLink ></li>
               <li  class="menu-item"><RouterLink class="menu-link" to="/contact"    @click="closeMenu">Contact</RouterLink ></li>
               <li  class="menu-item"><RouterLink class="menu-link" to="/"    @click="closeMenu">Billetterie</RouterLink ></li>
             </ul>
@@ -49,9 +49,3 @@
     </div>
   </header>
 </template>
-.menu-link {
-    @apply block px-5 py-4 lg:py-8;
-  }
-  .menu-item {
-    @apply relative overflow-hidden lg:before:absolute lg:before:bottom-0 lg:before:left-0 lg:before:h-2 lg:before:w-full lg:before:translate-y-2 lg:before:bg-black lg:before:transition-all lg:before:duration-300 lg:before:ease-in-out lg:hover:before:translate-y-0;
-  }

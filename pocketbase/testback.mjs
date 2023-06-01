@@ -5,6 +5,7 @@ import { OeuvresFrise } from "./backend.mjs";
 import { AllOeuvresArtistes } from "./backend.mjs"
 import { IDOeuvresArtistes } from "./backend.mjs";
 
+
 /* liste tout les artistes
 try {
     const fulllist = await allArtistes();
@@ -50,3 +51,5 @@ try {
             console.log(JSON.stringify( records, null, 2));
         } catch (e) {
             console.error(e);}
+
+            
