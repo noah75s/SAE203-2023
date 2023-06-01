@@ -1,7 +1,14 @@
 <script setup lang="ts">
-	import Hero from '@/components/hero.vue'
+import Hero from '@/components/hero.vue'
 </script>
+
 <template>
-  <h1 class="gap-12">Page d'accueil</h1>
-  <Hero />
+  <Hero title="Agenda" imgPath="../../../public/img/image 8.webp" imgAlt="Orchestre">
+    <template #chapo>
+      <p class="text-xl leading-normal lg:text-3xl">
+        Lieu de création artistique, le conservatoire propose régulièrement des actions culturelles
+        ouvertes à tous.
+      </p>
+    </template>
+  </Hero>
 </template>

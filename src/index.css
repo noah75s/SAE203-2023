@@ -2,9 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body{
+    @apply bg-rose-800;
+  }
+}
+
 @layer components {
   .grille {
-    @apply lg:grid lg:grid-cols-principal lg:justify-center lg:gap-12 px-6;
+    @apply lg:grid lg:justify-center lg:gap-12 px-6;
   }
 
   .menu-link {
@@ -16,3 +22,4 @@
   }
 
 }
+

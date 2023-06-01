@@ -35,15 +35,15 @@
         :class="{ '-translate-y-[9px] -rotate-45 bg-black': activeMenu }"></div>
       </button>
 <nav  class=" invisible opacity-0 fixed inset-0 h-screen w-screen bg-stone-200 text-2xl text-black
-            transition-all duration-300 ease-in-out  lg:visible lg:relative lg:flex lg:h-auto lg:w-auto lg:items-center lg:bg-transparent lg:text-sm lg:font-bold lg:uppercase lg:tracking-wide
+            transition-all duration-300 ease-in-out  lg:visible lg:relative lg:flex lg:h-auto lg:w-auto lg:items-center lg:bg-transparent lg:text-sm lg:font-bold lg:Poppins lg:tracking-wide
              lg:text-black lg:opacity-100"
             :class="{ '!visible opacity-100': activeMenu }">
             <ul class="mt-[25vh] ml-16  lg:m-0 lg:flex">
-              <li  class="menu-item"><RouterLink class="menu-link" to="/conservatoire"    @click="closeMenu">Le conservatoire</RouterLink></li>
-              <li  class="menu-item"><RouterLink class="menu-link" to="/"    @click="closeMenu">Enseignements</RouterLink></li>
-              <li  class="menu-item"><RouterLink class="menu-link" to="/events"    @click="closeMenu">Agenda</RouterLink ></li>
+              <li  class="menu-item"><RouterLink class="menu-link" to="/conservatoire"    @click="closeMenu">L'exposition</RouterLink></li>
+              <li  class="menu-item"><RouterLink class="menu-link" to="/"    @click="closeMenu">Artistes</RouterLink></li>
+              <li  class="menu-item"><RouterLink class="menu-link" to="/events"    @click="closeMenu">Frise</RouterLink ></li>
               <li  class="menu-item"><RouterLink class="menu-link" to="/contact"    @click="closeMenu">Contact</RouterLink ></li>
-              <li  class="menu-item"><RouterLink class="menu-link" to="/"    @click="closeMenu">S'inscrire</RouterLink ></li>
+              <li  class="menu-item"><RouterLink class="menu-link" to="/"    @click="closeMenu">Billetterie</RouterLink ></li>
             </ul>
           </nav>
     </div>
