@@ -38,3 +38,4 @@ return await pb.collection('artistes').getOne(id, {
     expand: 'oeuvres',
 
 });}
+
