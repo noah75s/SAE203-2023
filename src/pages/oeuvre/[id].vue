@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import {pb} from '@/backend'
+import { oneIDOeuvre } from '@/backend'
 const props = defineProps<{ id: string }>();
 
 console.log(props.id);
-import { oneIDOeuvre } from '@/backend'
 const uneOeuvre = await oneIDOeuvre (props.id)
 console.log(uneOeuvre);
 
