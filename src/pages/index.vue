@@ -53,11 +53,78 @@ L’EXPOSITION KALINKA
       </p>
     </div>
   </section>
+  
+  <hr class="my-8 w-[250px] border border-white m-auto lg:w-[1072px]">
+  
   <section
     class="grille space-y-5 py-24 lg:before:col-span-1 lg:before:col-start-1 lg:before:mt-12 lg:before:h-[1px] lg:before:bg-black"
   >
-    <header class="col-span-3 col-start-3 space-y-6">
-      <header class="col-span-7 col-start-6 row-span-1 row-start-1 space-y-8 bg-white lg:p-16 rounded-md"></header>
+
+  <div class="col-span-3 col-start-1 row-span-1 row-start-1">
+      <img class="h-[220px] absolute" src="/img/image 2.webp" alt="mouvement" />
+    </div>
+    <header class="col-span-4 col-start-1 space-y-6">
+      <header class="col-span-7 col-start-6 row-span-1 row-start-1 space-y-8 bg-white lg:p-16 rounded-md">
+        <h2 class="text-poppins lg:text-2xl">Qu'est-ce que le réalisme socialiste soviétique ?
+      </h2>
+      <h3 class="text-poppins lg:text-1xl ">C’est une doctrine élaborée en Union Soviétique par notamment Staline, Nikolaï Boukarine, Maxime Gorki et Andreï Jdanov entre 1932 et 1934 et qui est devenue la doctrine officielle de l'art dans les pays du bloc communiste.
+      </h3>
+      
+    
+      <div class="flex justify-between gap-4 ">
+
+        <div class="grid justify-items-center">
+          <img class="h-[120px]" src="../assets/Rectangle 10.webp">
+          <p class="">
+            Ivan Vladimirov
+          </p>
+          <RouterLink class="menu-link" to="">
+            <p class="">
+            En savoir plus
+          </p>
+          </RouterLink>
+        </div>
+
+        <div class="grid justify-items-center">
+          <img class="h-[120px]" src="../assets/Rectangle 12.webp">
+          <p class="">
+            Ivan Vladimirov
+          </p>
+          <RouterLink class="menu-link" to="">
+            <p class="">
+            En savoir plus
+          </p>
+          </RouterLink>
+        </div>
+
+        <div class="grid justify-items-center">
+          <img class="h-[120px]" src="../assets/Rectangle 13.webp">
+          <p class="">
+            Ivan Vladimirov
+          </p>
+          <RouterLink class="menu-link" to="">
+            <p class="">
+            En savoir plus
+          </p>
+          </RouterLink>
+        </div>
+
+        <div class="grid justify-items-center">
+          <img class="h-[120px]" src="../assets/Rectangle 14.webp">
+          <p class="">
+            Ivan Vladimirov
+          </p>
+          <RouterLink class="menu-link" to="">
+            <p class="">
+            En savoir plus
+          </p>
+          </RouterLink>
+        </div>
+
+      </div>
+
+</header>
+
       <h2 class="text-4xl lg:text-4xl text-center text-white text-poppins">Informations sur l’exposition</h2>
       <p class="text-xl leading-normal lg:text-1xl text-center text-white text-poppins">
         Dates de l’exposition : du 13 avril au 23 juin 2021
@@ -78,7 +145,8 @@ L’EXPOSITION KALINKA
         Fondation Cartier Pass : 18€ - 50€
       </p>
     </header>
-  
-   
+
+
+
   </section>
 </template>
