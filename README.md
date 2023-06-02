@@ -1,6 +1,6 @@
 - Nom: RIPERT
 - Prénom: Noah
-- URL du site: kalinka.noahripert.fr
+- URL du site: https://kalinka203.noahripert.fr/
 - Url de la maquette : https://www.figma.com/file/DMW3mUHIrwBLlYNX50AtgQ/SAE_site_evenementiel_Noah_Ripert_C1?type=design&node-id=1303-944&t=PZEM1jO3WKkOofbr-0
 
 # Sujet : Description de la SAE
@@ -115,12 +115,12 @@ Barème de l'évaluation :
 
 Renseigner les informations suivantes :
 
-- [ ] Donnez l'adresse IP de votre VPS :
+- [ ] Donnez l'adresse IP de votre VPS : 193.168.146.168
 
-- [ ] Donnez le login et le mot de passe admin du compte pocketbase :
+- [ ] Donnez le login et le mot de passe admin du compte pocketbase : ripertnoah@gmail.com Noah84170#
 
-- [ ] Donnez l'URL du backend `http://.../_/` (IP ou dommaine) :
+- [ ] Donnez l'URL du backend `http://.../_/` (IP ou dommaine) : https://kalinka203.noahripert.fr/_/
 
-- [ ] Donnez l'URL du frontend `http://.../` (IP ou domaine) :
+- [ ] Donnez l'URL du frontend `http://.../` (IP ou domaine) : https://kalinka203.noahripert.fr/
 
-- [ ] Donnez l'URL HTTP**S** du frontend `https://foo.bar/` (nom de dommaine) :
+- [ ] Donnez l'URL HTTP**S** du frontend `https://foo.bar/` (nom de dommaine) : https://kalinka203.noahripert.fr/
