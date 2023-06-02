@@ -4,7 +4,7 @@
 
 <template>
   <main class="py-16 relative">
-    <form class="border-2 border-Jaune_principal rounded-lg p-6 absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 max-w-md w-full">
+    <form class="border-2 border-Jaune_principal rounded-lg p-6 absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 max-w-md w-full">
       <div class="mb-4">
         <label for="nom" class="block text-gray-700 text-sm font-bold mb-2">Nom</label>
         <input type="text" id="nom" class="w-full px-3 py-2 border border-Jaune_principal rounded-md focus:outline-none focus:border-Jaune_principal" placeholder="Votre nom">
