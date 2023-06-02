@@ -25,7 +25,7 @@
     </form>
 
     <div class="">
-      <img class="" src="/img/image 10.webp" alt="mouvement" />
+      <img class="" src="/img/image10.webp" alt="mouvement" />
     </div>
   </main>
 </template>

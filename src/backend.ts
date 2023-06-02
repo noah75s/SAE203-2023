@@ -1,3 +1,12 @@
+
+var pocketbase_ip=''
+if(import.meta.env.MODE === 'production')
+pocketbase_ip='http://193.168.146.168'
+else
+pocketbase_ip='http://127.0.0.1.8090'
+
+alert(pocketbase_ip)
+
 import PocketBase from 'pocketbase';
 import { type ArtistesResponse, type OeuvresResponse, Collections, } from './pocketbase-types';
 export const pb = new PocketBase ('http://127.0.0.1:8090');

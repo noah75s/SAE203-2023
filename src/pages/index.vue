@@ -24,7 +24,7 @@ import Hero from '@/components/hero.vue'
   </Hero>
   <section class="grille my-24 grid-rows-2 space-y-8 lg:space-y-0">
     <div class="col-span-7 col-start-1 row-span-2 row-start-1">
-      <img src="/img/image 8.webp" alt="musée" />
+      <img src="/img/image8.webp" alt="musée" />
     </div>
     <header class="col-span-7 col-start-6 row-span-1 row-start-1 space-y-8 bg-white lg:p-16 rounded-md">
       <h2 class="text-poppins lg:text-3xl">PRENEZ PLACE À 
@@ -61,7 +61,7 @@ L’EXPOSITION KALINKA
   >
 
   <div class="col-span-3 col-start-1 row-span-1 row-start-1">
-      <img class="h-[220px] absolute" src="/img/image 2.webp" alt="mouvement" />
+      <img class="h-[220px] absolute" src="/img/image2.webp" alt="mouvement" />
     </div>
     <header class="col-span-4 col-start-1 space-y-6">
       <header class="col-span-7 col-start-6 row-span-1 row-start-1 space-y-8 bg-white lg:p-16 rounded-md">
@@ -73,8 +73,8 @@ L’EXPOSITION KALINKA
       <h2 class="font-DoubleP text-2xl lg:text-3xl underline text-center mb-2">Nos oeuvres du moment</h2>
       <div class="flex justify-between gap-4 flex w-full h-64 overflow-x-auto gap-3 pb-5">
 
-        <div class="grid justify-items-center">
-          <img class="h-[90px] carousel-item h-full object-cover" src="../assets/Rectangle 10.webp">
+        <div class="grid justify-items-centecdr">
+          <img class="h-[90px] carousel-item h-full object-cover" src="../assets/Rectangle10.webp">
           <p class="block text-2xl text-bold-poppins lg:text-2xl text-black">
             Ivan Vladimirov
           </p>
@@ -86,7 +86,7 @@ L’EXPOSITION KALINKA
         </div>
 
         <div class="grid justify-items-center">
-          <img class="h-[90px] carousel-item h-full object-cover" src="../assets/Rectangle 12.webp">
+          <img class="h-[90px] carousel-item h-full object-cover" src="../assets/Rectangle12.webp">
           <p class="block text-2xl text-bold-poppins lg:text-2xl text-black">
             Igor Grabar
           </p>
@@ -98,7 +98,7 @@ L’EXPOSITION KALINKA
         </div>
 
         <div class="grid justify-items-center">
-          <img class="h-[90px] carousel-item h-full object-cover" src="../assets/Rectangle 13.webp">
+          <img class="h-[90px] carousel-item h-full object-cover" src="../assets/Rectangle13.webp">
           <p class="block text-2xl text-bold-poppins lg:text-2xl text-black">
             Constantin Youon
           </p>
@@ -110,7 +110,7 @@ L’EXPOSITION KALINKA
         </div>
 
         <div class="grid justify-items-center">
-          <img class="h-[90px] carousel-item h-full object-cover" src="../assets/Rectangle 14.webp">
+          <img class="h-[90px] carousel-item h-full object-cover" src="../assets/Rectangle14.webp">
           <p class="block text-2xl text-bold-poppins lg:text-2xl text-black">
             Sun Mu
           </p>
