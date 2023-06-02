@@ -70,11 +70,11 @@ L’EXPOSITION KALINKA
       <h3 class="text-poppins lg:text-1xl ">C’est une doctrine élaborée en Union Soviétique par notamment Staline, Nikolaï Boukarine, Maxime Gorki et Andreï Jdanov entre 1932 et 1934 et qui est devenue la doctrine officielle de l'art dans les pays du bloc communiste.
       </h3>
       
-    
-      <div class="flex justify-between gap-4 ">
+      <h2 class="font-DoubleP text-2xl lg:text-3xl underline text-center mb-2">Nos oeuvres du moment</h2>
+      <div class="flex justify-between gap-4 flex w-full h-64 overflow-x-auto gap-3 pb-5">
 
         <div class="grid justify-items-center">
-          <img class="h-[120px]" src="../assets/Rectangle 10.webp">
+          <img class="h-[90px] carousel-item h-full object-cover" src="../assets/Rectangle 10.webp">
           <p class="block text-2xl text-bold-poppins lg:text-2xl text-black">
             Ivan Vladimirov
           </p>
@@ -86,7 +86,7 @@ L’EXPOSITION KALINKA
         </div>
 
         <div class="grid justify-items-center">
-          <img class="h-[120px]" src="../assets/Rectangle 12.webp">
+          <img class="h-[90px] carousel-item h-full object-cover" src="../assets/Rectangle 12.webp">
           <p class="block text-2xl text-bold-poppins lg:text-2xl text-black">
             Igor Grabar
           </p>
@@ -98,7 +98,7 @@ L’EXPOSITION KALINKA
         </div>
 
         <div class="grid justify-items-center">
-          <img class="h-[120px]" src="../assets/Rectangle 13.webp">
+          <img class="h-[90px] carousel-item h-full object-cover" src="../assets/Rectangle 13.webp">
           <p class="block text-2xl text-bold-poppins lg:text-2xl text-black">
             Constantin Youon
           </p>
@@ -110,7 +110,7 @@ L’EXPOSITION KALINKA
         </div>
 
         <div class="grid justify-items-center">
-          <img class="h-[120px]" src="../assets/Rectangle 14.webp">
+          <img class="h-[90px] carousel-item h-full object-cover" src="../assets/Rectangle 14.webp">
           <p class="block text-2xl text-bold-poppins lg:text-2xl text-black">
             Sun Mu
           </p>
